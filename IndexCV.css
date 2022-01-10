@@ -1,0 +1,85 @@
+/* *{
+    box-sizing: border-box;
+} */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+header{
+    /* width: 70%; */
+    display: block;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(219, 30, 9);
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    display: flex;
+}
+nav a{
+    color:rgb(31, 18, 209);
+    padding: 14 px;
+    margin: 20px;
+    text-decoration: none;
+}
+.imagen{
+    display: inline;
+    margin: 10px;
+    padding: 50px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+h1{
+    position: relative;
+    left: 40%;
+    font-size: 2.5em;    
+}
+h2{
+    position: relative;
+    left: 60%;
+}
+
+h3, h4{
+    text-shadow: 2px 1px .5px black;
+    color: rgb(158, 122, 3);
+    font-family: 'Raleway', sans-serif;
+}
+.datos{
+    font-size: .9;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    display: inline;
+    font-weight: 700;
+    color: #000;
+}
+ul{
+    font-weight: 700;
+    color: #000;
+}
+li{
+    font-weight: 700;
+    color: #000;
+}
+
+.Experience{
+    color: rgb(2, 60, 88);   
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid rgb(88, 29, 29);
+}
+.Form{
+    color: rgb(2, 60, 88);   
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid rgb(88, 29, 29);
+}
+
+.Course{
+    color: rgb(2, 60, 88);   
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid rgb(88, 29, 29);
+} 
